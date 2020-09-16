@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/subjects_graph"
+    app:startDestination="@id/subjectsFragment">
+
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="top.okeep.leech.ui.subjects.SubjectsFragment"
+        android:label="subjects_fragment"
+        tools:layout="@layout/subjects_fragment" >
+        <action
+            android:id="@+id/action_subjectsFragment_to_subjectEditFragment"
+            app:destination="@id/subjectEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectEditFragment"
+        android:name="top.okeep.leech.ui.subjects.SubjectEditFragment"
+        android:label="subject_edit_fragment"
+        tools:layout="@layout/subject_edit_fragment" />
+</navigation>

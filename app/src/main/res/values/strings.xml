@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Leech</string>
+    <string name="main_label">Leech</string>
+    <string name="subjects_label">Subjects</string>
+    <string name="payments_label">Payments</string>
+    <string name="to_add_new_subject">Add new Subject</string>
+    <string name="subject_edit_title_label">Title</string>
+    <string name="subject_edit_enabled_label">Enabled</string>
+    <string name="subject_edit_remark_label">Remark</string>
+    <string name="save">Save</string>
+</resources>
